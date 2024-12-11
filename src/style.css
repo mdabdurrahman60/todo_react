@@ -1,0 +1,53 @@
+body{
+    background: rgba(0, 0, 0, 0.804);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    
+}
+input{
+    margin-top: 100px;
+    height: 30px;
+    width: 50vh;
+    background-color: transparent;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.submit{
+    background-color: rgba(35, 35, 198, 0.776);
+    border: none;
+    height: 30px;
+    margin-left: 10px;
+}
+.close-button{
+    height: 30px;
+    width: 30px;
+    background-color: rgb(235, 34, 34);
+    margin-left: 10px;
+    border: none;
+    
+
+    
+}
+.todo, .close{
+    font-size: large;
+    
+}
+.todos-list{
+    margin-top: 40px;
+    
+    
+}
+.list{
+    border: rgba(174, 92, 92, 0.226);
+    border-style: solid;
+    margin-bottom:10px ;
+    display: flex;
+    justify-content: space-between;
+    width: 50vh;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
